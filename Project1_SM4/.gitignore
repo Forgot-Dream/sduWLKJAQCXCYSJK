@@ -1,0 +1,153 @@
+# Build directories
+build/
+Build/
+BUILD/
+debug/
+Debug/
+release/
+Release/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Generated executables and libraries
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.pdb
+
+# Object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+.libs/
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so.*
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
+test_sm4
+benchmark
+*.exe
+
+# IDE and Editor files
+.vscode/
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# CLion
+cmake-build-*/
+
+# QtCreator
+CMakeLists.txt.user*
+
+# KDevelop
+*.kdev4
+.kdev4/
+
+# Code::Blocks
+*.layout
+*.depend
+
+# CodeLite
+*.workspace
+
+# Temporary and backup files
+*~
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*#
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+
+# Core dumps
+core
+core.*
+
+# GDB history
+.gdb_history
+
+# Valgrind output
+vgcore.*
+massif.out.*
+callgrind.out.*
+
+# Profiling data
+*.gcov
+*.gcda
+*.gcno
+gmon.out
+
+# Documentation build output
+html/
+latex/
+doc/
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Test output
+test_results/
+*.xml
+*.junit
+
+# Coverage reports
+coverage/
+*.info
+
+# Static analysis reports
+cppcheck.xml
+scan-build-*/
+
+# Performance test data
+*.perf
+*.prof
