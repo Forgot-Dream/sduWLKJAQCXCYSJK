@@ -1,1 +1,127 @@
+# IDE and Editor files
 .vscode/
+.idea/
+*.code-workspace
+*.sublime-*
+*.atom-*
+.brackets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing and coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+
+# System files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*~
+
+# CMake build files (for SM4 project)
+Project1_SM4/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Project2 Watermark - Generated files
+Project2_Watermask/robustness_results/
+Project2_Watermask/robustness_final_test/
+Project2_Watermask/watermark_demo/
+Project2_Watermask/temp_images/
+Project2_Watermask/sample_images/
+
+# Generated watermark test images
+*_watermarked.png
+*_attacked.png
+*_extracted.png
+
+# Keep essential sample files but ignore generated ones
+Project2_Watermask/*.png
+!Project2_Watermask/host_image.png
+!Project2_Watermask/watermark.png
+
+# Log and report files
+*.log
+robustness_report.txt
+test_report.txt
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.o
+*.a
+*.dll
+bin/
+test_sm4
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+
+# Temporary files
+.tmp/
+*.tmp
+*.temp
