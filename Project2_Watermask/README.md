@@ -66,21 +66,6 @@ pip install -r requirements.txt
 
 ### 使用方法
 
-#### 1. 图形用户界面
-
-```bash
-python main.py
-```
-
-功能：
-- 加载宿主图像和水印图像
-- 选择水印算法和参数
-- 实时预览嵌入和提取结果
-- 进行攻击测试
-- 运行完整的鲁棒性测试
-
-#### 2. 命令行接口
-
 **创建示例图像：**
 ```bash
 python cli.py sample
@@ -182,7 +167,6 @@ class NewWatermarkAlgorithm(WatermarkBase):
 2. **多平台支持**: 基于Python，跨平台兼容
 3. **可视化结果**: 自动生成测试报告和结果图表
 4. **批量处理**: 支持命令行批量操作
-5. **实时预览**: GUI提供实时的嵌入和提取预览
 
 ## 应用场景
 
