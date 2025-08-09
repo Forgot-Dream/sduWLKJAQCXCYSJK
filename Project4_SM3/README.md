@@ -27,7 +27,7 @@ Project4_SM3/
 ├── length_extension_attack.py  # 长度扩展攻击演示
 ├── cli.py                 # 命令行接口
 ├── README.md              # 项目文档 (本文件)
-└── 20250710-fu-SM3-public.pdf  # SM3算法标准文档
+└── 20250710-fu-SM3-public.pdf  # SM3算法文档
 ```
 
 ## 安装依赖
