@@ -1,0 +1,9 @@
+{
+  "signature": {
+    "r": "7d8bd4fc60c3d7150707d4b44dfdb58009ec7e6816e47882720405e04d7a08bf",
+    "s": "03d88a235164d66e5de10dd43cf045d5be117ce8a3a343c13bf3d8eccecfc994"
+  },
+  "message": "Hello SM2 from CLI!",
+  "user_id": "31323334353637383132333435363738",
+  "algorithm": "\u57fa\u7840\u7248\u672c"
+}

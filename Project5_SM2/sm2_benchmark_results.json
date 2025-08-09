@@ -1,0 +1,30 @@
+{
+  "keypair_generation": {
+    "basic_avg": 0.00474217414855957,
+    "optimized_avg": 0.0015892934799194335,
+    "speedup": 2.983825334009403,
+    "basic_std": 0.000320170529062791,
+    "optimized_std": 0.0003765216095117231
+  },
+  "signing": {
+    "basic_avg": 0.009014277458190919,
+    "optimized_avg": 0.0031020450592041016,
+    "speedup": 2.90591441650552,
+    "basic_std": 0.0004776574637545008,
+    "optimized_std": 0.00019942345255153838
+  },
+  "verification": {
+    "basic_avg": 0.008377318382263183,
+    "optimized_avg": 0.002912931442260742,
+    "speedup": 2.8759064702743227,
+    "basic_std": 0.0004262753306573941,
+    "optimized_std": 0.0006328111698531497
+  },
+  "scalar_multiplication": {
+    "basic_avg": 0.0058707714080810545,
+    "optimized_avg": 0.002097745736440023,
+    "speedup": 2.798609624655484,
+    "basic_std": 0.00048396834123789014,
+    "optimized_std": 0.0004107674745679877
+  }
+}
